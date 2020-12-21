@@ -1,0 +1,75 @@
+
+body{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background-image: url(images/bg-pattern-top.svg),url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right 40vw bottom 5vh, left 40vw top 50vh;
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.img-top{
+  width:400px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.img-victor{
+  border-radius: 50%;
+  width:100px;
+  margin:auto;
+  margin-top: -55px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  border: 5px solid white;
+}
+
+
+.card{
+  width:400px;
+  height: 440px;
+  background-color: lightgrey;
+  border-radius: 20px;
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+}
+
+.head{
+  text-align: center;
+  margin-top:30px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+
+span{
+  color:hsl(0, 0%, 59%);
+  font-weight: bolder;
+}
+
+hr{
+  background-color:lightgrey;
+  height: 0.5px;
+}
+.head p {
+  color:hsl(0, 0%, 59%);
+  font-weight: bolder;
+}
+
+.wrapper{
+  display:flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.numbers p{
+  color:hsl(0, 0%, 59%);
+}
+.numbers h3{
+  font-weight:900;
+}
